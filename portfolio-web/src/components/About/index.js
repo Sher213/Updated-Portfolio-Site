@@ -18,28 +18,24 @@ const About = () => {
                 About Me
                 </h1>
                 <p>
-                I am a very ambitious Data Analyst and Software Developer looking for a role in
-                a company that prides itself on it's rigor and innovation. A company that provides 
-                opportunities to solve problem's with the best that their employees have to offer.
+                As an ambitious Data Analyst and Software Developer, 
+                I am seeking a role in a company that values innovation, rigor,
+                and the opportunity to tackle complex problems with a collaborative team. 
+                My passion for learning and growth drives me to continuously expand my skill set, staying ahead of industry trends and best practices.
                 </p>
                 <p>
-                I am confident, driven, and always onto the next thing. I love what I do and I love
-                to learn. I am willing to go the extra mile to expand my knowledge and skillset in order to stay
-                up to date with industry trends. I am well versed in Python (notable libraries are pandas, numpy, matplotlib, seaborn), SQL, Java,
-                Javascript and working in the Microsoft Suite of applications. I thrive in collaborative environments
-                where inclusivity and feedback is plentiful. 
+                I am proficient in Python (with expertise in libraries such as pandas, numpy, matplotlib, and seaborn), SQL, Java, JavaScript, and the Microsoft Suite of applications. 
+                My technical strengths are complemented by a commitment to inclusivity and feedback, allowing me to thrive in team environments where collaboration is key. 
                 </p>
                 <p>
-                I am known for my positivity and creativity. I have mentored many students and helped them
-                develop valuable skills that will last a lifetime. I have been Captain of our rugby team and freshman on the bench. A student and a teacher.
-                My experiences hve taught me that leadership skills only develop by putting learning first. In a constantly changing
-                environment, I envision myself in a role where I take the often abtractness of data 
-                and transform it into something anyone: from layman to business executive, can digest.
+                I bring a positive, creative mindset to all my projects, and my leadership experiences, such as being captain of a rugby team and mentoring students, 
+                have honed my ability to guide others while continuously learning myself. 
+                I am passionate about transforming complex data into actionable insights that resonate with stakeholders across all levels, from laymen to business executives.
                 </p>
                 <p>
-                In my free time, I enjoy being in nature, working out, reading books and playing sports
-                with friends and family. I truly believe that everyone has something positive to offer,
-                and that everyone has a story to tell. I hope you enjoyed mine.
+                Outside of work, I enjoy staying active by spending time in nature, working out, reading, and engaging in sports with friends and family. 
+                I believe in the power of diverse perspectives and the value everyone brings to the table, 
+                and I look forward to bringing my unique experience to a forward-thinking company.
                 </p>
                 <Link to='/contact' className='flat-button'>CONTACT ME</Link>
             </div>
