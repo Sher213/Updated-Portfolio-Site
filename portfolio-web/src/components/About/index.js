@@ -24,7 +24,9 @@ const About = () => {
                 My passion for learning and growth drives me to continuously expand my skill set, staying ahead of industry trends and best practices.
                 </p>
                 <p>
-                I am proficient in Python (with expertise in libraries such as pandas, numpy, matplotlib, and seaborn), SQL, Java, JavaScript, and the Microsoft Suite of applications. 
+                I am proficient in Python (with expertise in libraries such as pandas, numpy, matplotlib, and seaborn), Python, Java, C, C#, and Javascript, PHP, Perl, MATLAB - 
+                using several frameworks and libraries (Angular, jQuery, Node.js, React, Vue), 
+                and the Microsoft Suite of applications. 
                 My technical strengths are complemented by a commitment to inclusivity and feedback, allowing me to thrive in team environments where collaboration is key. 
                 </p>
                 <p>
@@ -34,8 +36,9 @@ const About = () => {
                 </p>
                 <p>
                 Outside of work, I enjoy staying active by spending time in nature, working out, reading, and engaging in sports with friends and family. 
-                I believe in the power of diverse perspectives and the value everyone brings to the table, 
-                and I look forward to bringing my unique experience to a forward-thinking company.
+                I believe in the power of diverse perspectives and the value everyone brings to the table.
+                Everyone has a story to tell and I hopy you enjoyed mine.
+                I look forward to the opportunity to bring my unique experience to your team and to be in touch soon.
                 </p>
                 <Link to='/contact' className='flat-button'>CONTACT ME</Link>
             </div>
