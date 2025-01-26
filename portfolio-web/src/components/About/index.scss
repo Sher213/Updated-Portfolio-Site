@@ -5,7 +5,6 @@
     grid-gap: 15px;
     width: 1000px;
     height: 750px;
-        
     
     .projects-title{
         display: flex;
@@ -121,4 +120,18 @@
             }
         }
     }
+}
+
+.projects-cont::-webkit-scrollbar {
+    background-color: #333333;
+    border-radius: 6px;
+}
+
+.projects-cont::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.267);
+    border-radius: 6px;
+}
+
+.projects-cont::-webkit-scrollbar-thumb:hover {
+    background: #8B8589;
 }

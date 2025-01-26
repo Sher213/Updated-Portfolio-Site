@@ -31,9 +31,9 @@ const Contact = () => {
             <div className='text-zone'>
                 <h1 className="text-hover">Contact Me</h1>
                 <p>
-                    I am currently freelancing, but am interested in data analysis and data science opportunities. In a landscape that is always changing,
+                    I am currently working as an <b>Experience Designer Co-op at the Ministry of Public and Business Service Delivery and Procurement in Toronto, Ontario,</b> but am interested in data analysis and data science opportunities. In a landscape that is always changing,
                     it's important to stay connected. If you are hiring, would like to discuss career opportunities in tech or just want to
-                    chat, feel free to reach out, <br/><br/> Thank you for your time, <br/><br/> Ali Sher
+                    chat, feel free to reach out, <br/><br/> Thank you for your time, <br/><br/> Regards, <br/> Ali Sher
                 </p>
                 <div className='contact-form'>
                     <form ref={formRef} onSubmit={sendEmail}>
