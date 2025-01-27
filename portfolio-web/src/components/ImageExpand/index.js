@@ -47,8 +47,6 @@ const ImageExpand = ({ imgId, scrollOffset }) => {
     };
   }, [imgId]);
 
-  if (!isPageLoaded) return null;
-
   return (
     <>
        <div

@@ -21,6 +21,11 @@ import ImageExpand from '../ImageExpand';
 const About = () => {
   const [resizeKey, setResizeKey] = useState(0);
   const [scrollOffset, setScrollOffset] = useState(0);
+  const [loadedImages, setLoadedImages] = useState({});
+
+  const handleImageLoad = (id) => {
+    setLoadedImages((prev) => ({ ...prev, [id]: true }));
+  };  
 
   const handleScroll = (e) => {
     setScrollOffset(e.target.scrollTop); // Capture the scroll position of the `projects-cont` div
@@ -112,6 +117,7 @@ const About = () => {
                   id={project.id}
                   alt={project.title}
                   style={{ width: "100%", height: "auto" }}
+                  onLoad={() => handleImageLoad(project.id)} // Track image load
                 />
                 <p>{project.description}</p>
               </a>
@@ -137,7 +143,7 @@ const About = () => {
         "project-image-11",
         "project-image-12"
       ].map((id, index) => (
-        <ImageExpand imgId={id} scrollOffset={scrollOffset} />
+        loadedImages[id] && <ImageExpand imgId={id} scrollOffset={scrollOffset} />
       ))}
     </>
   );
