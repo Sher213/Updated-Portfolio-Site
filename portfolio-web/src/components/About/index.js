@@ -66,6 +66,9 @@ const About = () => {
             I believe in the power of diverse perspectives and the value everyone brings to the table.
             Everyone has a story to tell and I hope you enjoyed mine.
             I look forward to the opportunity to bring my unique experience to your team and to be in touch soon.
+            <br/>
+            <br/>
+            <b>Hint: Hover on Images to expand Them!</b>
           </p>
           <Link to="/contact" className="flat-button">CONTACT ME</Link>
         </div>
@@ -110,18 +113,6 @@ const About = () => {
                   alt={project.title}
                   style={{ width: "100%", height: "auto" }}
                 />
-                <p
-                  className="scroll-hint"
-                  style={{
-                    position: "absolute",
-                    bottom: "0px",
-                    right: "10px",
-                    fontSize: "12px", // Adjust size as needed
-                    color:"black",
-                    padding: "-5px", // Padding for better look
-                    zIndex: 1, // Ensure it appears on top of the image
-                  }}
-                >Scroll over image to expand.</p>
                 <p>{project.description}</p>
               </a>
             </div>
